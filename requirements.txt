@@ -1,9 +1,13 @@
--e git+https://github.com/wolru/pytrends.git@215a524360158d4e2259e9772ab2fe89175eebf3#egg=pytrends
+-e git+https://github.com/bitdoldev/pytrends.git@215a524360158d4e2259e9772ab2fe89175eebf3#egg=pytrends
+bs4==0.0.2
 langchain==0.1.6
 langchain-community==0.0.19
 langchain-core==0.1.22
 langchain-openai==0.0.5
 openai==1.12.0
+pandas==2.2.1
+python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 requests==2.31.0
-urllib3==1.25.4
+six==1.16.0
+urllib3==2.2.1
