@@ -20,7 +20,7 @@ def is_html(text):
     html_pattern = re.compile(r'<[^>]+>')
     return bool(html_pattern.search(text))
 
-pytrends = TrendReq(hl='en-US', tz=300, retries=3)
+pytrends = TrendReq(hl='en-US', tz=300)
 trends = pytrends.realtime_trending_searches(pn='US', cat='t')
 
 llm = ChatOpenAI(model='gpt-4')
